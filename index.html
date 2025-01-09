@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile</title>
+    <!-- add-css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- add-font-awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- add-google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add-normlize -->
+    <link rel="stylesheet" href="./css/normlize.css" />
+    <!-- add-my-framework -->
+    <link rel="stylesheet" href="./css/Elcoach-framework.css" />
+  </head>
+  <body>
+    <!-- start-nav -->
+    <nav id="nav">
+      <div class="container">
+        <div class="logo" id="logo"></div>
+        <ul id="navList">
+          <li onclick="topFunction()">home</li>
+          <li><a href="#info" onclick="scrollWin()">about</a></li>
+          <li><a href="#gallery">our projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end-nav -->
+    <!-- start-about -->
+
+    <div class="about" id="about">
+      <div class="container">
+        <div class="image">
+          <img src="" alt="" id="userImage" />
+        </div>
+        <div class="info" id="info">
+          <h1 id="name"></h1>
+          <h2 id="posetion"></h2>
+          <h3 id="learning"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- end-about -->
+    <!-- start-gallery -->
+
+    <div class="gallery" id="gallery">
+      <h2 class="main-title">our projects</h2>
+      <div class="container">
+        <div class="box">
+          <div class="imge">
+            <img src="./images/gallery-01.png" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="imge">
+            <img src="./images/gallery-02.png" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="imge">
+            <img src="./images/gallery-03.jpg" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="imge">
+            <img src="./images/gallery-04.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end-gallery -->
+    <!-- start-contact -->
+
+    <div class="contact" id="contact">
+      <div class="container">
+        <a id="facebook" href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a id="github" href="">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a id="gmail" href=""
+          ><i class="fa-solid fa-inbox"></i
+        ></a>
+        <a id="whatsapp" href=""
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- end-contact -->
+
+    <!-- AddJavaScript -->
+    <script src="./js/all.js"></script>
+  </body>
+</html>
