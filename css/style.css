@@ -2,6 +2,8 @@
 
 :root {
   --main-color--: rgba(0, 0, 0, 0.726);
+  --nav-color--:  #ececec;
+
 }
 
 /* end-varibels */
@@ -78,7 +80,7 @@ nav {
   position: fixed;
   width: 100%;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.274);
-  background-color: #ececec;
+  background-color: var(--nav-color--);
   z-index: 22;
 }
 nav .container {
@@ -97,10 +99,14 @@ nav .container ul li {
   transition: 0.3s;
   cursor: pointer;
 }
-nav .container ul li a:visited{
-    color: var(--main-color--);
+nav .container ul li a {
+  color: var(--main-color--);
 }
-nav .container ul li:hover {
+/* nav .container ul li a:visited {
+  color: var(--main-color--);
+} */
+nav .container ul li:hover,
+nav .container ul li a:hover {
   color: black;
 }
 @media (max-width: 768px) {
@@ -117,7 +123,6 @@ nav .container ul li:hover {
 
 /* end-nav */
 /* start-about */
-
 
 .about .image {
   width: 50%;
@@ -189,22 +194,26 @@ nav .container ul li:hover {
 
 .contact {
   height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
 }
 .contact .container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .contact .container i {
-    font-size: 30px;
-    color: var(--main-color--);
-    cursor: pointer;
-    transition: 0.3s;
+  font-size: 30px;
+  color: var(--main-color--);
+  cursor: pointer;
+  transition: 0.3s;
 }
-.contact .container i:hover{
-    color: black;
+.contact .container i:hover {
+  color: black;
 }
 
 /* end-contact */

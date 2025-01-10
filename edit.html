@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile</title>
+    <title>Edit</title>
     <!-- add-css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/edit.css" />
     <!-- add-font-awesome -->
     <link rel="stylesheet" href="./css/all.min.css" />
     <!-- add-google-fonts -->
@@ -26,60 +27,30 @@
       <div class="container">
         <div class="logo"><h1 id="logo"></h1></div>
         <ul id="navList">
-          <li onclick="topFunction()">home</li>
-          <li><a href="#info" onclick="scrollWin()">about</a></li>
-          <li><a href="#gallery">our projects</a></li>
-          <li><a href="#contact">contact</a></li>
-          <li><a href="edit.html">edit</a></li>
+          <li><a href="index.html">home</a></li>
         </ul>
       </div>
     </nav>
     <!-- end-nav -->
-    <!-- start-about -->
 
-    <div class="about" id="about">
-      <div class="container">
-        <div class="image">
-          <img src="" alt="" id="userImage" />
-        </div>
-        <div class="info" id="info">
-          <h1 id="name"></h1>
-          <h2 id="posetion"></h2>
-          <h3 id="learning"></h3>
-        </div>
-      </div>
+    <!-- start-edit-fom -->
+
+    <div class="edit-from">
+      <form action="" id="edit-form">
+        <input type="text" placeholder="Name" id="editUserName" />
+        <input type="text" placeholder="Logo" id="editlogo" />
+        <input type="text" placeholder="Posetion" id="editUserPosetion" />
+        <input type="text" placeholder="Learning" id="editUserLearning" />
+        <input type="text" placeholder="Githup" id="editUserGithup" />
+        <input type="text" placeholder="Gmail" id="editUserGmail" />
+        <input type="text" placeholder="Facebook" id="editUserFacebook" />
+        <input type="text" placeholder="Whatsapp" id="editUserWhatsapp" />
+        <button type="submit" >submit</button>
+      </form>
     </div>
 
-    <!-- end-about -->
-    <!-- start-gallery -->
+    <!-- end-edit-fom -->
 
-    <div class="gallery" id="gallery">
-      <h2 class="main-title">our projects</h2>
-      <div class="container">
-        <div class="box">
-          <div class="imge">
-            <img src="./images/gallery-01.png" alt="" />
-          </div>
-        </div>
-        <div class="box">
-          <div class="imge">
-            <img src="./images/gallery-02.png" alt="" />
-          </div>
-        </div>
-        <div class="box">
-          <div class="imge">
-            <img src="./images/gallery-03.jpg" alt="" />
-          </div>
-        </div>
-        <div class="box">
-          <div class="imge">
-            <img src="./images/gallery-04.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- end-gallery -->
     <!-- start-contact -->
 
     <div class="contact" id="contact">
