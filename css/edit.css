@@ -1,8 +1,8 @@
 body {
   height: 100vh;
 }
-nav .container ul{
-    justify-content: center;
+nav .container ul {
+  justify-content: center;
 }
 
 /* start-form */
@@ -32,12 +32,12 @@ nav .container ul{
   outline: none;
   padding: 2px;
 }
-.edit-from form button{
-    text-align: center;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
-    border: none;
+.edit-from form button {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: none;
 }
 
 /* end-form */
