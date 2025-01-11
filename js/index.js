@@ -29,9 +29,7 @@ document.getElementById("gmail").href = updatedProfile.userGmail;
 document.getElementById("github").href = updatedProfile.userGithup;
 // end-contact
 
-const exportLogo = updatedProfile.logo;
 
-export default { exportLogo };
 
 // resetLocalStorage
 
